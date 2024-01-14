@@ -1,0 +1,26 @@
+.feedHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 0.45;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.feedHeader h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--twitter-secondary-text-colour);
+}
+
+.feedHeader--active h2{
+    font-weight: 700;
+    color: var(--twitter-subheading-colour);
+    border-bottom: 3px solid var(--twitter-colour);
+    border-radius: 3px;
+}
+
+.feedHeader:hover {
+    background-color: var(--twitter-sidebar-option-hover-colour);
+    cursor: pointer;
+}

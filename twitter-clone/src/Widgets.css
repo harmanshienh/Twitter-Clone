@@ -1,0 +1,67 @@
+.widgets {
+    flex: 0.3;
+    width: 100%;
+    overflow-y: scroll;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.widgets-input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-bg-colour);
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--app-bg-colour);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.widgets-input:focus-within {
+    border: 1px solid var(--twitter-colour);
+}
+
+.widgets-input:focus-within .MuiSvgIcon-root {
+    color: var(--twitter-colour);
+}
+
+.widgets-searchIcon {
+    color: var(--twitter-secondary-text-colour);
+}
+
+.widgets-input {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.widgets-input input {
+    border: none;
+    background-color: var(--twitter-bg-colour);
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.MuiSvgIcon-root input:focus {
+    color: var(--twitter-colour);
+}
+
+.widgets-container {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: var(--twitter-widget-container-colour);
+    border-radius: 20px;
+}
+
+.widgets-container h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.widgets-share-button {
+    color: var(--twitter-colour) !important;
+}

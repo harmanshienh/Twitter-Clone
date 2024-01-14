@@ -1,0 +1,26 @@
+:root {
+    --app-bg-colour: white;
+    --twitter-colour: #219afd;
+    --twitter-bg-colour: #eff3f4;
+    --twitter-border-colour: #eff3f4;
+    --twitter-sidebar-option-hover-colour: #eff3f4;
+    --twitter-button-hover-colour: #1c81d3;
+    --twitter-secondary-text-colour: gray;
+    --twitter-small-button-bg-colour: rgba(160, 214, 255, 0.227);
+    --twitter-button-text-colour: white;
+    --twitter-widget-container-colour: #f5f8fa;
+    --twitter-subheading-colour: black;
+}
+
+body {
+    background-color: var(--app-bg-colour);
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}

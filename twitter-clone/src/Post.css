@@ -1,0 +1,88 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-border-colour);
+    padding-bottom: 10px;
+}
+
+.post h3, p {
+    color: var(--twitter-subheading-colour);
+}
+
+.post:hover {
+    cursor: pointer;
+    background-color: var(--twitter-sidebar-option-hover-colour);
+    border-left: 1px solid var(--twitter-border-colour);
+    transition: background-color 100ms ease-out;
+}
+
+.post-avatar {
+    padding: 16px;
+}
+
+.post-body {
+    flex: 1;
+    padding: 10px;
+}
+
+.post-headerText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-headerText h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.post-username {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--twitter-secondary-text-colour);
+}
+
+.post-badge {
+    font-size: 18px !important;
+    color: var(--twitter-colour);
+}
+
+.post-headerDescription {
+    margin-bottom: 10px;
+}
+
+.post-body img{
+    border-radius: 20px;
+    flex: 1;
+}
+
+.post-footer {
+    display: flex;
+    margin-top: 5px;
+    color: var(--twitter-secondary-text-colour);
+}
+
+.post-interactions {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.post-share {
+    display: flex;
+    width: 10%;
+    padding-left: 15%;
+    justify-content: space-between
+}
+
+.post-interactions .MuiSvgIcon-root, .post-share .MuiSvgIcon-root {
+    padding: 5px;
+}
+
+.post-interactions .MuiSvgIcon-root:hover, .post-share .MuiSvgIcon-root:hover {
+    background-color:var(--twitter-small-button-bg-colour);
+    border-radius: 16px;
+    color: var(--twitter-colour);
+    cursor: pointer;
+    transition: background-color 200ms ease-out;
+}
